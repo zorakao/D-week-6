@@ -95,7 +95,7 @@ function Login({ getProducts, setIsAuth }) {
             style={{ cursor: "pointer" }}
           >
             <i
-              className={`fa-solid ${showPassword ? "fa-eye-slash" : "fa-eye"}`}
+              className={`fa-solid ${showPassword ? "fa-eye" : "fa-eye-slash"}`}
             />
           </span>
         </div>
